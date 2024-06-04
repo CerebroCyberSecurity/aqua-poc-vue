@@ -1,0 +1,15 @@
+{
+  "name": "vulnerable-vue-app",
+  "version": "1.0.0",
+  "description": "A Vue.js app with intentional vulnerabilities for testing purposes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8080"
+  },
+  "dependencies": {
+    "vue": "2.6.12",
+    "http-server": "0.11.1",
+    "lodash": "4.17.15"
+  },
+  "devDependencies": {}
+}
